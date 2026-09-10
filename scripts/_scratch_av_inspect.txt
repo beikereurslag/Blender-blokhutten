@@ -1,0 +1,442 @@
+INSPECT_START C:/Users/beike/Documents/Blender-blokhutten/pilots/Lelie-400x250-300-zijwand/style-modern/lelie_avondkubus_v2.blend
+CAMERA HeroCam (8.4, 10.4, 1.6) lens 35
+=MATERIALS=
+  LaBoll0_em                     base=None imgs=[]
+  LaBoll1_em                     base=None imgs=[]
+  LaBoll2_em                     base=None imgs=[]
+  LaCorten_soilmat               base=(0.05, 0.04, 0.03) imgs=[]
+  MAT_BollardDark                base=(0.03, 0.03, 0.04) imgs=[]
+  MAT_DeckGap                    base=(0.03, 0.03, 0.02) imgs=[]
+  MAT_HedgeCore                  base=(0.02, 0.05, 0.01) imgs=[]
+  MAT_LaCorten                   base=(0.8, 0.8, 0.8) imgs=[]
+  MAT_LaDeckFB                   base=(0.8, 0.8, 0.8) imgs=[]
+  MAT_LaPaverFB                  base=(0.8, 0.8, 0.8) imgs=[]
+  M_PBR_GrassRock                base=(0.8, 0.8, 0.8) imgs=['diff_2k.jpg', 'rough_2k.jpg', 'nor_gl_2k.jpg']
+  basetexture-firstLayer-canopyWall base=(0.8, 0.8, 0.8) imgs=['luxehouse-onbehandeld.jpg']
+  basetexture-firstLayer-door    base=(0.8, 0.8, 0.8) imgs=['hardhout-deuren-ramen.jpg']
+  basetexture-firstLayer-foundationBeam base=(0.8, 0.8, 0.8) imgs=['kdi_rabat_fbz_zwart.jpg']
+  basetexture-firstLayer-poles   base=(0.8, 0.8, 0.8) imgs=['kdi_rabat_fbz_zwart.jpg']
+  basetexture-firstLayer-roofBeam base=(0.8, 0.8, 0.8) imgs=['kdi_rabat_fbz_zwart.jpg']
+  basetexture-firstLayer-roofPlate base=(0.8, 0.8, 0.8) imgs=['staalpannen-antraciet.jpg']
+  basetexture-firstLayer-roofboard base=(0.8, 0.8, 0.8) imgs=['kdi_rabat_fbz_zwart.jpg']
+  basetexture-firstLayer-wall    base=(0.8, 0.8, 0.8) imgs=['kdi_potdeksel_zwart.jpg']
+  chrome                         base=(0.8, 0.8, 0.82) imgs=[]
+  flatroof-98-board-mat          base=(0.8, 0.8, 0.8) imgs=['epdm.jpg']
+  glass                          base=(1.0, 1.0, 1.0) imgs=[]
+  jacaranda_tree_branches        base=(0.8, 0.8, 0.8) imgs=['jacaranda_tree_branches_nor_gl.png', 'jacaranda_tree_branches_rough.png', 'jacaranda_tree_branches_diff.png']
+  jacaranda_tree_leaves          base=None imgs=['jacaranda_tree_leaves_diff.png', 'jacaranda_tree_leaves_rough.png', 'jacaranda_tree_leaves_alpha.png', 'jacaranda_tree_leaves_nor_gl.png']
+  jacaranda_tree_trunk           base=(0.8, 0.8, 0.8) imgs=['jacaranda_tree_trunk_diff.png', 'jacaranda_tree_trunk_rough.png', 'jacaranda_tree_trunk_nor_gl.png', 'jacaranda_tree_branches_diff.png', 'jacaranda_tree_branches_rough.png', 'jacaranda_tree_branches_nor_gl.png']
+  pine_tree_01_bark              base=(0.11, 0.08, 0.05) imgs=['pine_tree_01_bark_disp.png', 'pine_tree_01_bark_rough.png', 'pine_tree_01_bark_nor_gl.png', 'pine_tree_01_bark_diff.png']
+  pine_tree_01_dead_branches     base=(0.8, 0.8, 0.8) imgs=['pine_tree_01_bark_diff.png', 'pine_tree_01_bark_rough.png', 'pine_tree_01_bark_nor_gl.png', 'pine_tree_01_bark_disp.png']
+  pine_tree_01_trunk_a           base=(0.8, 0.8, 0.8) imgs=['pine_tree_01_bark_diff.png', 'pine_tree_01_bark_rough.png', 'pine_tree_01_bark_nor_gl.png', 'pine_tree_01_trunk_a_diff.png', 'pine_tree_01_trunk_a_rough.png', 'pine_tree_01_trunk_a_nor_gl.png']
+  pine_tree_01_trunk_b           base=(0.8, 0.8, 0.8) imgs=['pine_tree_01_trunk_b_rough.png', 'pine_tree_01_trunk_b_nor_gl.png', 'pine_tree_01_trunk_b_diff.png', 'pine_tree_01_bark_diff.png', 'pine_tree_01_bark_rough.png', 'pine_tree_01_bark_nor_gl.png', 'pine_tree_01_bark_disp.png']
+  pine_tree_01_trunk_c           base=(0.8, 0.8, 0.8) imgs=['pine_tree_01_bark_diff.png', 'pine_tree_01_bark_rough.png', 'pine_tree_01_bark_nor_gl.png', 'pine_tree_01_bark_disp.png', 'pine_tree_01_trunk_c_diff.png', 'pine_tree_01_trunk_c_rough.png', 'pine_tree_01_trunk_c_nor_gl.png']
+  pine_tree_01_twig              base=(0.8, 0.8, 0.8) imgs=['pine_tree_01_twig_mask.png', 'pine_tree_01_twig_alpha.png', 'pine_tree_01_twig_nor_gl.png', 'pine_tree_01_twig_rough.png', 'pine_tree_01_twig_diff.png']
+  shrub_03                       base=None imgs=['shrub_03_diff.png', 'shrub_03_rough.png', 'shrub_03_nor_gl.png', 'shrub_03_alpha.png']
+  weed_plant_02                  base=None imgs=['weed_plant_02_nor_gl.png', 'weed_plant_02_diff.png', 'weed_plant_02_rough.png', 'weed_plant_02_alpha.png']
+=STRUCTURE / OTHER OBJECTS (non-veg)=
+  .DEURBASIC                       x[0.73,2.24] y[1.22,1.29] z[0.05,1.95] ndc(0.42, 0.49, 11.4) ['basetexture-firstLayer-door']
+  .DEURBASIC.DEURBASIC             x[0.88,2.09] y[1.21,1.22] z[0.98,1.80] ndc(0.42, 0.55, 11.5) ['glass']
+  .doorhandle                      x[1.30,1.44] y[1.17,1.34] z[0.92,1.15] ndc(0.43, 0.5, 11.5) ['chrome']
+  .scharnier-0-1                   x[2.20,2.22] y[1.22,1.28] z[0.94,1.06] ndc(0.37, 0.49, 11.0) ['chrome']
+  .scharnier-0-2                   x[2.20,2.22] y[1.22,1.28] z[1.59,1.71] ndc(0.37, 0.59, 11.0) ['chrome']
+  .scharnier-1-0                   x[0.75,0.77] y[1.22,1.28] z[0.29,0.41] ndc(0.47, 0.4, 11.9) ['chrome']
+  .scharnier-1-1                   x[0.75,0.77] y[1.22,1.28] z[0.94,1.06] ndc(0.47, 0.49, 11.9) ['chrome']
+  .scharnier-1-2                   x[0.75,0.77] y[1.22,1.28] z[1.59,1.71] ndc(0.47, 0.59, 11.9) ['chrome']
+  .scharnier-hinge                 x[2.20,2.22] y[1.22,1.28] z[0.29,0.41] ndc(0.37, 0.38, 11.0) ['chrome']
+  BeukBlok_0                       x[-7.00,-4.60] y[5.20,5.80] z[0.00,1.30] ndc(1.05, 0.45, 13.1) ['MAT_HedgeCore']
+  BeukBlok_1                       x[-3.00,-0.60] y[5.60,6.20] z[0.00,1.30] ndc(0.95, 0.42, 10.1) ['MAT_HedgeCore']
+  BeukBlok_2                       x[3.60,5.00] y[6.40,7.00] z[0.00,1.30] ndc(0.61, 0.28, 5.5) ['MAT_HedgeCore']
+  DEURBASIC-95                     EMPTY loc(-302.31, 192.69, 3.34)
+  Drift_8                          EMPTY loc(3.04, 3.52, 0.06)
+  Drift_8_m0                       x[-1.37,-0.17] y[2.38,3.60] z[0.06,0.47] ndc(0.66, 0.38, 11.6) ['weed_plant_02']
+  Drift_8_m1                       x[-1.38,-0.16] y[2.38,3.60] z[0.05,0.47] ndc(0.66, 0.38, 11.6) ['weed_plant_02']
+  Drift_8_m10                      x[5.57,7.53] y[3.09,5.51] z[0.00,0.55] ndc(0.05, 0.18, 5.8) ['weed_plant_02']
+  Drift_8_m11                      x[5.57,7.53] y[3.09,5.51] z[0.00,0.55] ndc(0.05, 0.18, 5.8) ['weed_plant_02']
+  Drift_8_m2                       x[-1.38,-0.16] y[2.38,3.60] z[0.05,0.47] ndc(0.66, 0.38, 11.6) ['weed_plant_02']
+  Drift_8_m3                       x[-1.38,-0.16] y[2.38,3.60] z[0.05,0.47] ndc(0.66, 0.38, 11.6) ['weed_plant_02']
+  Drift_8_m4                       x[2.10,3.72] y[2.58,4.25] z[0.06,0.57] ndc(0.44, 0.33, 8.9) ['weed_plant_02']
+  Drift_8_m5                       x[2.10,3.72] y[2.57,4.25] z[0.06,0.57] ndc(0.44, 0.33, 8.9) ['weed_plant_02']
+  Drift_8_m6                       x[2.10,3.72] y[2.57,4.25] z[0.06,0.57] ndc(0.44, 0.33, 8.9) ['weed_plant_02']
+  Drift_8_m7                       x[2.10,3.72] y[2.57,4.26] z[0.06,0.57] ndc(0.44, 0.33, 8.9) ['weed_plant_02']
+  Drift_8_m8                       x[5.60,7.52] y[3.11,5.47] z[0.05,0.49] ndc(0.05, 0.18, 5.8) ['weed_plant_02']
+  Drift_8_m9                       x[5.57,7.53] y[3.09,5.51] z[0.00,0.55] ndc(0.05, 0.18, 5.8) ['weed_plant_02']
+  Drift_9                          EMPTY loc(3.42, 3.85, 0.06)
+  Drift_9_m0                       x[-0.49,0.79] y[1.86,3.15] z[0.05,0.43] ndc(0.58, 0.37, 11.4) ['weed_plant_02']
+  Drift_9_m1                       x[-0.50,0.80] y[1.86,3.16] z[0.05,0.43] ndc(0.58, 0.37, 11.4) ['weed_plant_02']
+  Drift_9_m10                      x[5.28,7.47] y[4.12,6.57] z[0.00,0.50] ndc(0.15, 0.13, 5.1) ['weed_plant_02']
+  Drift_9_m11                      x[5.28,7.47] y[4.12,6.57] z[0.00,0.50] ndc(0.15, 0.13, 5.1) ['weed_plant_02']
+  Drift_9_m2                       x[-0.50,0.80] y[1.86,3.16] z[0.05,0.43] ndc(0.58, 0.37, 11.4) ['weed_plant_02']
+  Drift_9_m3                       x[-0.50,0.80] y[1.86,3.16] z[0.05,0.43] ndc(0.58, 0.37, 11.4) ['weed_plant_02']
+  Drift_9_m4                       x[2.47,4.20] y[2.85,4.61] z[0.05,0.52] ndc(0.43, 0.31, 8.4) ['weed_plant_02']
+  Drift_9_m5                       x[2.47,4.20] y[2.84,4.61] z[0.05,0.52] ndc(0.43, 0.31, 8.4) ['weed_plant_02']
+  Drift_9_m6                       x[2.47,4.20] y[2.84,4.61] z[0.05,0.52] ndc(0.43, 0.31, 8.4) ['weed_plant_02']
+  Drift_9_m7                       x[2.47,4.20] y[2.84,4.61] z[0.05,0.52] ndc(0.43, 0.31, 8.4) ['weed_plant_02']
+  Drift_9_m8                       x[5.31,7.46] y[4.14,6.55] z[0.05,0.46] ndc(0.15, 0.12, 5.1) ['weed_plant_02']
+  Drift_9_m9                       x[5.28,7.47] y[4.12,6.57] z[0.00,0.50] ndc(0.15, 0.13, 5.1) ['weed_plant_02']
+  FlatRoofParent                   EMPTY loc(-303.79, 191.42, 5.44)
+  Ground_Grass                     x[-16.00,16.00] y[-16.00,16.00] z[0.00,0.00] ndc(0.45, 0.37, 13.4) ['M_PBR_GrassRock']
+  [LaBoll* x12] x[2.26,3.94] y[5.36,7.94] z[0.00,0.63] mat~LaBoll0_em
+  [LaCorten_* x5] x[-3.30,-2.40] y[3.00,3.60] z[-0.01,0.50] mat~MAT_LaCorten
+  LaDeck_base                      x[-3.50,3.50] y[1.72,4.50] z[0.01,0.04] ndc(0.63, 0.33, 11.0) ['MAT_DeckGap']
+  [LaDeck_f* x4] x[-3.52,3.52] y[1.70,4.52] z[-0.07,0.06] mat~MAT_LaDeckFB
+  [LaDeck_p* x46] x[-3.51,3.45] y[1.71,4.51] z[0.03,0.06] mat~MAT_LaDeckFB
+  [LaPaver_* x8] x[1.10,4.58] y[4.24,8.96] z[-0.02,0.05] mat~MAT_LaPaverFB
+  TreeRing_0                       EMPTY loc(-8.94, -7.93, 0.03)
+  TreeRing_0_m0                    x[-9.20,-8.68] y[-8.18,-7.66] z[0.00,5.81] ndc(0.53, 0.67, 25.2) ['pine_tree_01_trunk_a']
+  TreeRing_0_m1                    x[-10.80,-7.14] y[-9.59,-5.99] z[0.00,6.75] ndc(0.54, 0.7, 25.1) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_0_m2                    x[-10.80,-7.14] y[-9.59,-5.99] z[0.00,6.75] ndc(0.54, 0.7, 25.1) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_0_m3                    x[-10.81,-7.14] y[-9.58,-5.99] z[0.00,6.74] ndc(0.54, 0.7, 25.1) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_1                       EMPTY loc(-5.78, -8.29, 0.04)
+  TreeRing_10                      EMPTY loc(-2.64, -13.46, 0.03)
+  TreeRing_10_m0                   x[-2.89,-2.37] y[-13.72,-13.22] z[0.00,7.59] ndc(0.21, 0.73, 25.2) ['pine_tree_01_trunk_a']
+  TreeRing_10_m1                   x[-4.34,-0.67] y[-15.28,-11.90] z[0.00,8.82] ndc(0.2, 0.77, 25.2) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_10_m2                   x[-4.34,-0.67] y[-15.28,-11.90] z[0.00,8.82] ndc(0.2, 0.77, 25.2) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_10_m3                   x[-4.33,-0.66] y[-15.28,-11.90] z[0.00,8.81] ndc(0.2, 0.77, 25.2) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_11                      EMPTY loc(0.59, -11.97, 0.04)
+  TreeRing_11_m0                   x[0.18,0.92] y[-12.34,-11.59] z[0.00,6.69] ndc(0.1, 0.72, 21.9) ['pine_tree_01_trunk_c']
+  TreeRing_11_m1                   x[-1.65,3.12] y[-14.18,-9.38] z[0.00,7.73] ndc(0.1, 0.76, 21.7) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_11_m2                   x[-1.65,3.12] y[-14.18,-9.38] z[0.00,7.73] ndc(0.1, 0.76, 21.7) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_11_m3                   x[-1.65,3.12] y[-14.17,-9.38] z[0.00,7.73] ndc(0.1, 0.76, 21.7) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_12                      EMPTY loc(3.25, -11.59, 0.03)
+  TreeRing_12_m0                   x[2.97,3.51] y[-11.86,-11.32] z[0.00,6.43] ndc(-0.03, 0.72, 19.9) ['pine_tree_01_trunk_a']
+  TreeRing_12_m1                   x[1.27,4.94] y[-13.57,-9.75] z[0.00,7.47] ndc(-0.02, 0.76, 20.0) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_12_m2                   x[1.27,4.94] y[-13.57,-9.75] z[0.00,7.47] ndc(-0.02, 0.76, 20.0) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_12_m3                   x[1.27,4.94] y[-13.57,-9.75] z[0.00,7.46] ndc(-0.02, 0.76, 20.0) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_13                      EMPTY loc(6.34, -12.32, 0.04)
+  TreeRing_13_m0                   x[6.06,6.67] y[-12.59,-11.98] z[0.00,6.76] ndc(-0.22, 0.75, 18.3) ['pine_tree_01_trunk_c']
+  TreeRing_13_m1                   x[4.45,8.43] y[-14.48,-10.60] z[0.00,7.82] ndc(-0.23, 0.8, 18.5) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_13_m2                   x[4.45,8.43] y[-14.48,-10.60] z[0.00,7.82] ndc(-0.23, 0.8, 18.5) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_13_m3                   x[4.46,8.42] y[-14.48,-10.60] z[0.00,7.82] ndc(-0.23, 0.8, 18.5) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_14                      EMPTY loc(9.61, -11.34, 0.03)
+  TreeRing_14_m0                   x[9.32,9.91] y[-11.64,-11.07] z[0.00,7.47] ndc(-0.47, 0.82, 15.5) ['pine_tree_01_trunk_a']
+  TreeRing_14_m1                   x[7.64,11.78] y[-13.45,-9.54] z[0.00,8.68] ndc(-0.47, 0.89, 15.5) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_14_m2                   x[7.64,11.78] y[-13.45,-9.54] z[0.00,8.68] ndc(-0.47, 0.89, 15.5) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_14_m3                   x[7.64,11.79] y[-13.46,-9.54] z[0.00,8.67] ndc(-0.47, 0.88, 15.5) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_15                      EMPTY loc(11.83, -11.47, 0.05)
+  TreeRing_15_m0                   x[11.41,12.21] y[-11.92,-11.11] z[0.00,7.74] ndc(-0.68, 0.86, 14.1) ['pine_tree_01_trunk_c']
+  TreeRing_15_m1                   x[9.04,14.27] y[-13.83,-8.68] z[0.00,8.95] ndc(-0.66, 0.93, 14.0) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_15_m2                   x[9.04,14.27] y[-13.83,-8.68] z[0.00,8.95] ndc(-0.66, 0.93, 14.0) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_15_m3                   x[9.05,14.26] y[-13.83,-8.68] z[0.00,8.95] ndc(-0.66, 0.93, 14.0) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_16                      EMPTY loc(-13.04, -3.83, 0.03)
+  TreeRing_16_m0                   x[-13.30,-12.77] y[-4.08,-3.55] z[0.00,5.83] ndc(0.76, 0.67, 24.9) ['pine_tree_01_trunk_a']
+  TreeRing_16_m1                   x[-14.92,-11.22] y[-5.50,-1.87] z[0.00,6.78] ndc(0.76, 0.7, 24.8) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_16_m2                   x[-14.92,-11.22] y[-5.50,-1.87] z[0.00,6.78] ndc(0.76, 0.7, 24.8) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_16_m3                   x[-14.92,-11.22] y[-5.50,-1.87] z[0.00,6.77] ndc(0.76, 0.7, 24.8) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_17                      EMPTY loc(13.17, -4.28, 0.03)
+  TreeRing_17_m0                   x[12.92,13.44] y[-4.52,-3.99] z[0.00,4.96] ndc(-1.16, 0.78, 7.8) ['pine_tree_01_trunk_c']
+  TreeRing_17_m1                   x[11.59,14.99] y[-6.10,-2.73] z[0.00,5.73] ndc(-1.17, 0.86, 7.8) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_17_m2                   x[11.59,14.99] y[-6.10,-2.73] z[0.00,5.73] ndc(-1.17, 0.86, 7.8) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_17_m3                   x[11.59,14.99] y[-6.09,-2.73] z[0.00,5.73] ndc(-1.18, 0.86, 7.8) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_18                      EMPTY loc(-13.74, -2.35, 0.03)
+  TreeRing_18_m0                   x[-14.03,-13.43] y[-2.65,-2.06] z[0.00,6.52] ndc(0.82, 0.7, 24.2) ['pine_tree_01_trunk_a']
+  TreeRing_18_m1                   x[-15.65,-11.51] y[-4.42,-0.34] z[0.00,7.58] ndc(0.82, 0.74, 24.2) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_18_m2                   x[-15.65,-11.51] y[-4.42,-0.34] z[0.00,7.58] ndc(0.82, 0.74, 24.2) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_18_m3                   x[-15.65,-11.50] y[-4.41,-0.34] z[0.00,7.57] ndc(0.82, 0.74, 24.1) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_19                      EMPTY loc(13.91, -2.28, 0.03)
+  TreeRing_19_m0                   x[13.66,14.22] y[-2.56,-1.99] z[0.00,5.06] ndc(-1.6, 0.86, 5.8) ['pine_tree_01_trunk_c']
+  TreeRing_19_m1                   x[12.01,15.66] y[-4.26,-0.63] z[0.00,5.85] ndc(-1.54, 0.96, 6.0) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_19_m2                   x[12.01,15.66] y[-4.26,-0.63] z[0.00,5.85] ndc(-1.54, 0.96, 6.0) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_19_m3                   x[12.02,15.66] y[-4.26,-0.63] z[0.00,5.85] ndc(-1.54, 0.96, 6.0) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_1_m0                    x[-6.10,-5.50] y[-8.55,-7.96] z[0.00,6.32] ndc(0.43, 0.7, 23.4) ['pine_tree_01_trunk_c']
+  TreeRing_1_m1                    x[-7.43,-3.67] y[-10.19,-6.35] z[0.00,7.30] ndc(0.42, 0.73, 23.2) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_1_m2                    x[-7.43,-3.67] y[-10.19,-6.35] z[0.00,7.30] ndc(0.42, 0.73, 23.2) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_1_m3                    x[-7.43,-3.68] y[-10.19,-6.35] z[0.00,7.30] ndc(0.42, 0.73, 23.2) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_2                       EMPTY loc(-3.06, -7.67, 0.03)
+  TreeRing_20                      EMPTY loc(-12.18, 0.02, 0.03)
+  TreeRing_20_m0                   x[-12.45,-11.92] y[-0.26,0.28] z[0.00,5.85] ndc(0.89, 0.69, 21.4) ['pine_tree_01_trunk_a']
+  TreeRing_20_m1                   x[-14.03,-10.38] y[-1.98,1.73] z[0.00,6.80] ndc(0.88, 0.72, 21.6) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_20_m2                   x[-14.03,-10.38] y[-1.98,1.73] z[0.00,6.80] ndc(0.88, 0.72, 21.6) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_20_m3                   x[-14.03,-10.38] y[-1.99,1.73] z[0.00,6.79] ndc(0.88, 0.72, 21.6) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_21                      EMPTY loc(14.16, 0.3, 0.03)
+  TreeRing_21_m0                   x[13.81,14.44] y[-0.00,0.61] z[0.00,5.57] ndc(-2.35, 1.13, 3.7) ['pine_tree_01_trunk_c']
+  TreeRing_21_m1                   x[12.29,16.27] y[-1.54,2.46] z[0.00,6.44] ndc(-2.53, 1.37, 3.5) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_21_m2                   x[12.29,16.27] y[-1.54,2.46] z[0.00,6.44] ndc(-2.53, 1.37, 3.5) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_21_m3                   x[12.29,16.26] y[-1.53,2.46] z[0.00,6.44] ndc(-2.53, 1.37, 3.5) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_22                      EMPTY loc(-12.03, 2.17, 0.03)
+  TreeRing_22_m0                   x[-12.32,-11.76] y[1.90,2.45] z[0.00,6.09] ndc(0.98, 0.71, 19.7) ['pine_tree_01_trunk_a']
+  TreeRing_22_m1                   x[-14.10,-10.25] y[0.31,4.09] z[0.00,7.08] ndc(0.99, 0.75, 19.8) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_22_m2                   x[-14.10,-10.25] y[0.31,4.09] z[0.00,7.08] ndc(0.99, 0.75, 19.8) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_22_m3                   x[-14.11,-10.26] y[0.31,4.09] z[0.00,7.07] ndc(0.99, 0.75, 19.8) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_23                      EMPTY loc(12.86, 1.79, 0.04)
+  TreeRing_23_m0                   x[12.55,13.12] y[1.47,2.05] z[0.00,6.24] ndc(-2.0, 1.33, 3.5) ['pine_tree_01_trunk_c']
+  TreeRing_23_m1                   x[10.88,14.64] y[0.15,3.83] z[0.00,7.21] ndc(-2.03, 1.6, 3.4) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_23_m2                   x[10.88,14.64] y[0.15,3.83] z[0.00,7.21] ndc(-2.03, 1.6, 3.4) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_23_m3                   x[10.88,14.63] y[0.15,3.83] z[0.00,7.21] ndc(-2.03, 1.6, 3.4) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_24                      EMPTY loc(-13.15, 4.26, 0.03)
+  TreeRing_24_m0                   x[-13.38,-12.94] y[4.03,4.48] z[0.00,6.77] ndc(1.12, 0.74, 18.9) ['pine_tree_01_trunk_a']
+  TreeRing_24_m1                   x[-14.75,-11.79] y[2.53,5.75] z[0.00,7.87] ndc(1.11, 0.79, 19.1) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_24_m2                   x[-14.75,-11.79] y[2.53,5.75] z[0.00,7.87] ndc(1.11, 0.79, 19.1) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_24_m3                   x[-14.75,-11.79] y[2.52,5.75] z[0.00,7.86] ndc(1.11, 0.79, 19.1) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_25                      EMPTY loc(12.74, 4.33, 0.04)
+  TreeRing_25_m0                   x[12.42,13.01] y[4.00,4.60] z[0.00,6.39] ndc(-3.67, 2.21, 1.7) ['pine_tree_01_trunk_c']
+  TreeRing_25_m1                   x[10.71,14.57] y[2.65,6.42] z[0.00,7.39] ndc(-3.86, 2.88, 1.6) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_25_m2                   x[10.71,14.57] y[2.65,6.42] z[0.00,7.39] ndc(-3.86, 2.88, 1.6) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_25_m3                   x[10.71,14.56] y[2.65,6.42] z[0.00,7.39] ndc(-3.86, 2.88, 1.6) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_26                      EMPTY loc(-14.24, 6.38, 0.03)
+  TreeRing_26_m0                   x[-14.54,-13.95] y[6.07,6.66] z[0.00,6.40] ndc(1.27, 0.73, 18.0) ['pine_tree_01_trunk_a']
+  TreeRing_26_m1                   x[-16.29,-12.22] y[4.17,8.27] z[0.00,7.44] ndc(1.26, 0.78, 18.2) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_26_m2                   x[-16.29,-12.22] y[4.17,8.27] z[0.00,7.44] ndc(1.26, 0.78, 18.2) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_26_m3                   x[-16.29,-12.21] y[4.16,8.27] z[0.00,7.43] ndc(1.26, 0.78, 18.2) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_27                      EMPTY loc(13.81, 5.59, 0.04)
+  TreeRing_27_m0                   x[13.53,14.13] y[5.26,5.85] z[0.00,6.38] ndc(-443.18, 172.67, 0.0) ['pine_tree_01_trunk_c']
+  TreeRing_27_m1                   x[11.67,15.49] y[3.62,7.53] z[0.00,7.37] ndc(-40.13, 21.86, 0.2) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_27_m2                   x[11.67,15.49] y[3.62,7.53] z[0.00,7.37] ndc(-40.13, 21.86, 0.2) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_27_m3                   x[11.67,15.49] y[3.63,7.52] z[0.00,7.37] ndc(-40.02, 21.78, 0.2) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_2_m0                    x[-3.27,-2.87] y[-7.88,-7.47] z[0.00,5.59] ndc(0.34, 0.68, 21.1) ['pine_tree_01_trunk_a']
+  TreeRing_2_m1                    x[-4.51,-1.78] y[-9.25,-6.31] z[0.00,6.50] ndc(0.34, 0.71, 21.3) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_2_m2                    x[-4.51,-1.78] y[-9.25,-6.31] z[0.00,6.50] ndc(0.34, 0.71, 21.3) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_2_m3                    x[-4.51,-1.77] y[-9.25,-6.32] z[0.00,6.49] ndc(0.34, 0.71, 21.3) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_3                       EMPTY loc(-0.43, -7.74, 0.03)
+  TreeRing_3_m0                    x[-0.73,-0.14] y[-8.00,-7.42] z[0.00,5.23] ndc(0.23, 0.67, 19.4) ['pine_tree_01_trunk_c']
+  TreeRing_3_m1                    x[-2.11,1.61] y[-9.67,-5.93] z[0.00,6.05] ndc(0.22, 0.71, 19.4) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_3_m2                    x[-2.11,1.61] y[-9.67,-5.93] z[0.00,6.05] ndc(0.22, 0.71, 19.4) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_3_m3                    x[-2.11,1.60] y[-9.67,-5.94] z[0.00,6.05] ndc(0.22, 0.71, 19.4) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_4                       EMPTY loc(3.45, -7.49, 0.03)
+  TreeRing_4_m0                    x[3.21,3.71] y[-7.74,-7.25] z[0.00,5.49] ndc(0.02, 0.7, 16.7) ['pine_tree_01_trunk_a']
+  TreeRing_4_m1                    x[1.86,5.30] y[-9.21,-5.84] z[0.00,6.38] ndc(0.01, 0.75, 16.6) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_4_m2                    x[1.86,5.30] y[-9.21,-5.84] z[0.00,6.38] ndc(0.01, 0.75, 16.6) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_4_m3                    x[1.86,5.31] y[-9.20,-5.84] z[0.00,6.37] ndc(0.01, 0.75, 16.6) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_5                       EMPTY loc(5.77, -7.47, 0.04)
+  TreeRing_5_m0                    x[5.50,6.08] y[-7.78,-7.22] z[0.00,6.12] ndc(-0.14, 0.75, 15.1) ['pine_tree_01_trunk_c']
+  TreeRing_5_m1                    x[3.74,7.36] y[-9.34,-5.63] z[0.00,7.08] ndc(-0.12, 0.8, 15.3) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_5_m2                    x[3.74,7.36] y[-9.34,-5.63] z[0.00,7.08] ndc(-0.12, 0.8, 15.3) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_5_m3                    x[3.74,7.36] y[-9.34,-5.64] z[0.00,7.08] ndc(-0.12, 0.8, 15.3) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_6                       EMPTY loc(9.2, -8.43, 0.03)
+  TreeRing_6_m0                    x[9.00,9.42] y[-8.64,-8.21] z[0.00,6.13] ndc(-0.44, 0.77, 13.5) ['pine_tree_01_trunk_a']
+  TreeRing_6_m1                    x[7.90,10.73] y[-9.86,-6.80] z[0.00,7.13] ndc(-0.45, 0.83, 13.4) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_6_m2                    x[7.90,10.73] y[-9.86,-6.80] z[0.00,7.13] ndc(-0.45, 0.83, 13.4) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_6_m3                    x[7.90,10.73] y[-9.86,-6.79] z[0.00,7.12] ndc(-0.45, 0.83, 13.4) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_7                       EMPTY loc(-12.45, -11.41, 0.04)
+  TreeRing_7_m0                    x[-12.74,-12.21] y[-11.71,-11.17] z[0.00,6.32] ndc(0.54, 0.67, 30.2) ['pine_tree_01_trunk_c']
+  TreeRing_7_m1                    x[-14.28,-10.78] y[-12.90,-9.49] z[0.00,7.31] ndc(0.54, 0.7, 30.0) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_7_m2                    x[-14.28,-10.78] y[-12.90,-9.49] z[0.00,7.31] ndc(0.54, 0.7, 30.0) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_7_m3                    x[-14.28,-10.78] y[-12.90,-9.49] z[0.00,7.31] ndc(0.54, 0.7, 30.0) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_8                       EMPTY loc(-9.68, -11.84, 0.03)
+  TreeRing_8_m0                    x[-10.01,-9.38] y[-12.14,-11.52] z[0.00,7.38] ndc(0.46, 0.71, 28.6) ['pine_tree_01_trunk_a']
+  TreeRing_8_m1                    x[-12.05,-7.65] y[-13.88,-9.65] z[0.00,8.58] ndc(0.46, 0.74, 28.7) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_8_m2                    x[-12.05,-7.65] y[-13.88,-9.65] z[0.00,8.58] ndc(0.46, 0.74, 28.7) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_8_m3                    x[-12.06,-7.65] y[-13.88,-9.65] z[0.00,8.57] ndc(0.46, 0.74, 28.7) ['pine_tree_01_bark', 'pine_tree_01_trunk_a', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_9                       EMPTY loc(-6.3, -13.41, 0.05)
+  TreeRing_9_m0                    x[-6.69,-5.99] y[-13.79,-13.08] z[0.00,7.75] ndc(0.33, 0.72, 27.6) ['pine_tree_01_trunk_c']
+  TreeRing_9_m1                    x[-8.62,-4.04] y[-15.37,-10.90] z[0.00,8.96] ndc(0.34, 0.76, 27.4) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_9_m2                    x[-8.62,-4.04] y[-15.37,-10.90] z[0.00,8.96] ndc(0.34, 0.76, 27.4) ['<none>', 'pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  TreeRing_9_m3                    x[-8.62,-4.05] y[-15.37,-10.90] z[0.00,8.96] ndc(0.34, 0.76, 27.4) ['pine_tree_01_bark', 'pine_tree_01_trunk_c', 'pine_tree_01_twig', 'pine_tree_01_dead_branches']
+  boards                           EMPTY loc(-301.21, 188.84, 3.34)
+  fasciaboard-0--90-false          x[3.69,3.70] y[-1.43,1.44] z[2.02,2.33] ndc(0.2, 0.67, 10.9) ['basetexture-firstLayer-roofboard']
+  fasciaboard-0-0-false            x[-3.69,3.69] y[1.43,1.45] z[2.18,2.33] ndc(0.53, 0.67, 12.3) ['basetexture-firstLayer-roofboard']
+  fasciaboard-0-180-true           x[-3.69,3.69] y[-1.44,-1.42] z[2.04,2.14] ndc(0.39, 0.64, 14.4) ['basetexture-firstLayer-roofboard']
+  fasciaboard-0-90-false           x[-3.70,-3.69] y[-1.43,1.44] z[2.02,2.33] ndc(0.63, 0.64, 15.8) ['basetexture-firstLayer-roofboard']
+  flatroof-98-board                x[-3.68,3.69] y[-1.42,1.43] z[2.07,2.30] ndc(0.45, 0.66, 13.4) ['flatroof-98-board-mat']
+  flatroof-98-roofplate            x[-3.68,3.69] y[-1.42,1.43] z[2.05,2.22] ndc(0.45, 0.65, 13.3) ['basetexture-firstLayer-roofPlate']
+  foundationBeam-0                 x[-0.53,3.50] y[-1.28,-1.23] z[0.00,0.05] ndc(0.31, 0.38, 13.3) ['basetexture-firstLayer-foundationBeam']
+  foundationBeam-1                 x[-0.53,-0.48] y[-1.26,1.22] z[0.00,0.05] ndc(0.48, 0.38, 13.7) ['basetexture-firstLayer-foundationBeam']
+  foundationBeam-2                 x[-0.53,3.50] y[1.19,1.24] z[0.00,0.05] ndc(0.42, 0.34, 11.5) ['basetexture-firstLayer-foundationBeam']
+  foundationBeam-3                 x[3.45,3.50] y[-1.26,1.22] z[0.00,0.05] ndc(0.22, 0.33, 11.1) ['basetexture-firstLayer-foundationBeam']
+  foundationBeam-4                 x[-3.50,-0.50] y[-1.28,-1.23] z[0.00,0.05] ndc(0.5, 0.41, 15.6) ['basetexture-firstLayer-foundationBeam']
+  foundationBeam-5                 x[-3.50,-3.45] y[-1.26,1.22] z[0.00,0.05] ndc(0.62, 0.41, 15.7) ['basetexture-firstLayer-foundationBeam']
+  parentBoard-0-scaled             x[-0.61,3.59] y[-1.29,-1.27] z[0.05,0.19] ndc(0.31, 0.39, 13.3) ['basetexture-firstLayer-wall']
+  parentBoard-0-scaled-roofWallBoard-0 x[-0.61,3.59] y[-1.29,-1.27] z[2.07,2.07] ndc(0.31, 0.64, 13.3) ['basetexture-firstLayer-wall']
+  parentBoard-1-scaled             x[-0.54,-0.52] y[-1.37,1.33] z[0.05,0.13] ndc(0.48, 0.39, 13.7) ['basetexture-firstLayer-wall']
+  parentBoard-1-scaled-roofWallBoard-0 x[-0.54,-0.52] y[-1.37,1.33] z[2.00,2.15] ndc(0.48, 0.64, 13.7) ['basetexture-firstLayer-wall']
+  parentBoard-2-scaled             x[-0.61,3.59] y[1.24,1.26] z[0.05,0.19] ndc(0.42, 0.36, 11.4) ['basetexture-firstLayer-wall']
+  parentBoard-2-scaled-roofWallBoard-0 x[-0.61,3.59] y[1.24,1.26] z[2.07,2.21] ndc(0.42, 0.66, 11.4) ['basetexture-firstLayer-wall']
+  parentBoard-3-scaled             x[3.49,3.51] y[-1.37,1.33] z[0.05,0.13] ndc(0.21, 0.34, 11.0) ['basetexture-firstLayer-wall']
+  parentBoard-3-scaled-roofWallBoard-0 x[3.49,3.51] y[-1.37,1.33] z[2.00,2.15] ndc(0.21, 0.65, 11.0) ['basetexture-firstLayer-wall']
+  parentBoard-4-scaled             x[-3.58,-0.41] y[-1.29,-1.27] z[0.05,0.19] ndc(0.5, 0.42, 15.6) ['basetexture-firstLayer-canopyWall']
+  parentBoard-4-scaled-roofWallBoard-0 x[-3.58,-0.41] y[-1.29,-1.27] z[2.07,2.07] ndc(0.5, 0.63, 15.6) ['basetexture-firstLayer-canopyWall']
+  parentBoard-5-scaled             x[-3.51,-3.49] y[-1.37,1.33] z[0.05,0.13] ndc(0.62, 0.41, 15.7) ['basetexture-firstLayer-canopyWall']
+  parentBoard-5-scaled-roofWallBoard-0 x[-3.51,-3.49] y[-1.37,1.33] z[2.00,2.15] ndc(0.62, 0.63, 15.7) ['basetexture-firstLayer-canopyWall']
+  parentBoard-6-scaled             x[-3.58,-0.41] y[1.24,1.26] z[0.05,0.19] ndc(0.62, 0.39, 13.8) ['basetexture-firstLayer-canopyWall']
+  parentBoard-6-scaled-roofWallBoard-0 x[-3.58,-0.41] y[1.24,1.26] z[2.07,2.21] ndc(0.62, 0.65, 13.8) ['basetexture-firstLayer-canopyWall']
+  parentBoard-7-scaled             x[-3.58,-0.41] y[-1.29,-1.27] z[0.05,0.13] ndc(0.5, 0.41, 15.6) ['basetexture-firstLayer-canopyWall']
+  parentBoard-7-scaled-roofWallBoard-0 x[-3.58,-0.41] y[-1.29,-1.27] z[2.00,2.07] ndc(0.5, 0.63, 15.6) ['basetexture-firstLayer-canopyWall']
+  parentBoard-8-scaled             x[-3.51,-3.49] y[-1.37,1.33] z[0.05,0.19] ndc(0.62, 0.42, 15.7) ['basetexture-firstLayer-canopyWall']
+  parentBoard-8-scaled-roofWallBoard-0 x[-3.51,-3.49] y[-1.37,1.33] z[2.07,2.21] ndc(0.62, 0.64, 15.7) ['basetexture-firstLayer-canopyWall']
+  parentBoard-openEndA-8-scaled    x[-3.58,-3.38] y[1.22,1.24] z[0.05,0.13] ndc(0.68, 0.4, 14.7) ['basetexture-firstLayer-canopyWall']
+  pole-0                           x[-3.48,-3.39] y[1.14,1.23] z[0.05,2.16] ndc(0.68, 0.52, 14.8) ['basetexture-firstLayer-poles']
+  poles                            EMPTY loc(-301.21, 188.84, 3.34)
+  roof                             EMPTY loc(-301.21, 188.84, 3.34)
+  roofbeam-508                     x[-3.48,3.49] y[-0.97,-0.92] z[2.02,2.12] ndc(0.41, 0.64, 14.1) ['basetexture-firstLayer-roofBeam']
+  roofbeam-509                     x[-3.48,3.49] y[-0.49,-0.45] z[2.05,2.15] ndc(0.43, 0.64, 13.7) ['basetexture-firstLayer-roofBeam']
+  roofbeam-510                     x[-3.48,3.49] y[-0.02,0.03] z[2.08,2.18] ndc(0.45, 0.65, 13.4) ['basetexture-firstLayer-roofBeam']
+  roofbeam-511                     x[-3.48,3.49] y[0.46,0.50] z[2.10,2.20] ndc(0.48, 0.65, 13.0) ['basetexture-firstLayer-roofBeam']
+  roofbeam-512                     x[-3.48,3.49] y[0.93,0.98] z[2.13,2.23] ndc(0.5, 0.66, 12.6) ['basetexture-firstLayer-roofBeam']
+  roofbeams                        EMPTY loc(-301.21, 188.84, 3.34)
+  shed                             EMPTY loc(2.59, -2.57, 0.05)
+  sketelonwalls                    EMPTY loc(-301.21, 188.84, 3.34)
+  trim-1                           x[-3.71,-3.66] y[-1.45,1.45] z[2.16,2.34] ndc(0.63, 0.65, 15.8) ['chrome']
+  trim-2                           x[3.66,3.71] y[-1.45,1.45] z[2.16,2.34] ndc(0.2, 0.68, 10.9) ['chrome']
+  trim-3                           x[-3.71,3.71] y[1.40,1.45] z[2.31,2.34] ndc(0.53, 0.68, 12.3) ['chrome']
+  trimparent1                      EMPTY loc(-307.48, 191.41, 5.54)
+  trimparent2                      EMPTY loc(-300.11, 191.41, 5.54)
+  trimparent3                      EMPTY loc(-303.79, 192.84, 5.62)
+  wall-0-board-1-scaled            x[-0.61,3.59] y[-1.29,-1.27] z[0.18,0.33] ndc(0.31, 0.41, 13.3) ['basetexture-firstLayer-wall']
+  wall-0-board-10-scaled           x[-0.61,3.59] y[-1.29,-1.27] z[1.39,1.54] ndc(0.31, 0.56, 13.3) ['basetexture-firstLayer-wall']
+  wall-0-board-11-scaled           x[-0.61,3.59] y[-1.29,-1.27] z[1.53,1.68] ndc(0.31, 0.58, 13.3) ['basetexture-firstLayer-wall']
+  wall-0-board-12-scaled           x[-0.61,3.59] y[-1.29,-1.27] z[1.66,1.81] ndc(0.31, 0.6, 13.3) ['basetexture-firstLayer-wall']
+  wall-0-board-13-scaled           x[-0.61,3.59] y[-1.29,-1.27] z[1.80,1.95] ndc(0.31, 0.62, 13.3) ['basetexture-firstLayer-wall']
+  wall-0-board-14-scaled           x[-0.61,3.59] y[-1.29,-1.27] z[1.93,2.07] ndc(0.31, 0.63, 13.3) ['basetexture-firstLayer-wall']
+  wall-0-board-2-scaled            x[-0.61,3.59] y[-1.29,-1.27] z[0.31,0.46] ndc(0.31, 0.42, 13.3) ['basetexture-firstLayer-wall']
+  wall-0-board-3-scaled            x[-0.61,3.59] y[-1.29,-1.27] z[0.45,0.60] ndc(0.31, 0.44, 13.3) ['basetexture-firstLayer-wall']
+  wall-0-board-4-scaled            x[-0.61,3.59] y[-1.29,-1.27] z[0.58,0.73] ndc(0.31, 0.46, 13.3) ['basetexture-firstLayer-wall']
+  wall-0-board-5-scaled            x[-0.61,3.59] y[-1.29,-1.27] z[0.72,0.87] ndc(0.31, 0.48, 13.3) ['basetexture-firstLayer-wall']
+  wall-0-board-6-scaled            x[-0.61,3.59] y[-1.29,-1.27] z[0.85,1.00] ndc(0.31, 0.49, 13.3) ['basetexture-firstLayer-wall']
+  wall-0-board-7-scaled            x[-0.61,3.59] y[-1.29,-1.27] z[0.99,1.14] ndc(0.31, 0.51, 13.3) ['basetexture-firstLayer-wall']
+  wall-0-board-8-scaled            x[-0.61,3.59] y[-1.29,-1.27] z[1.12,1.27] ndc(0.31, 0.53, 13.3) ['basetexture-firstLayer-wall']
+  wall-0-board-9-scaled            x[-0.61,3.59] y[-1.29,-1.27] z[1.26,1.41] ndc(0.31, 0.55, 13.3) ['basetexture-firstLayer-wall']
+  wall-1-board-1-scaled            x[-0.54,-0.52] y[-1.37,1.33] z[0.11,0.26] ndc(0.48, 0.4, 13.7) ['basetexture-firstLayer-wall']
+  wall-1-board-10-scaled           x[-0.54,-0.52] y[-1.37,1.33] z[1.32,1.47] ndc(0.48, 0.55, 13.7) ['basetexture-firstLayer-wall']
+  wall-1-board-11-scaled           x[-0.54,-0.52] y[-1.37,1.33] z[1.46,1.61] ndc(0.48, 0.57, 13.7) ['basetexture-firstLayer-wall']
+  wall-1-board-12-scaled           x[-0.54,-0.52] y[-1.37,1.33] z[1.59,1.74] ndc(0.48, 0.59, 13.7) ['basetexture-firstLayer-wall']
+  wall-1-board-13-scaled           x[-0.54,-0.52] y[-1.37,1.33] z[1.73,1.88] ndc(0.48, 0.61, 13.7) ['basetexture-firstLayer-wall']
+  wall-1-board-14-scaled           x[-0.54,-0.52] y[-1.37,1.33] z[1.86,2.01] ndc(0.48, 0.62, 13.7) ['basetexture-firstLayer-wall']
+  wall-1-board-15-scaled           x[-0.54,-0.52] y[-1.37,1.33] z[2.00,2.07] ndc(0.48, 0.64, 13.7) ['basetexture-firstLayer-wall']
+  wall-1-board-2-scaled            x[-0.54,-0.52] y[-1.37,1.33] z[0.24,0.39] ndc(0.48, 0.42, 13.7) ['basetexture-firstLayer-wall']
+  wall-1-board-3-scaled            x[-0.54,-0.52] y[-1.37,1.33] z[0.38,0.53] ndc(0.48, 0.44, 13.7) ['basetexture-firstLayer-wall']
+  wall-1-board-4-scaled            x[-0.54,-0.52] y[-1.37,1.33] z[0.51,0.66] ndc(0.48, 0.45, 13.7) ['basetexture-firstLayer-wall']
+  wall-1-board-5-scaled            x[-0.54,-0.52] y[-1.37,1.33] z[0.65,0.80] ndc(0.48, 0.47, 13.7) ['basetexture-firstLayer-wall']
+  wall-1-board-6-scaled            x[-0.54,-0.52] y[-1.37,1.33] z[0.78,0.93] ndc(0.48, 0.49, 13.7) ['basetexture-firstLayer-wall']
+  wall-1-board-7-scaled            x[-0.54,-0.52] y[-1.37,1.33] z[0.92,1.07] ndc(0.48, 0.5, 13.7) ['basetexture-firstLayer-wall']
+  wall-1-board-8-scaled            x[-0.54,-0.52] y[-1.37,1.33] z[1.05,1.20] ndc(0.48, 0.52, 13.7) ['basetexture-firstLayer-wall']
+  wall-1-board-9-scaled            x[-0.54,-0.52] y[-1.37,1.33] z[1.19,1.34] ndc(0.48, 0.54, 13.7) ['basetexture-firstLayer-wall']
+  wall-2-board-1-scaled            x[-0.61,3.59] y[1.24,1.26] z[0.18,0.33] ndc(0.42, 0.38, 11.4) ['basetexture-firstLayer-wall']
+  wall-2-board-10-scaled           x[-0.61,3.59] y[1.24,1.26] z[1.39,1.54] ndc(0.42, 0.56, 11.4) ['basetexture-firstLayer-wall']
+  wall-2-board-11-scaled           x[-0.61,3.59] y[1.24,1.26] z[1.53,1.68] ndc(0.42, 0.58, 11.4) ['basetexture-firstLayer-wall']
+  wall-2-board-12-scaled           x[-0.61,3.59] y[1.24,1.26] z[1.66,1.81] ndc(0.42, 0.6, 11.4) ['basetexture-firstLayer-wall']
+  wall-2-board-13-scaled           x[-0.61,3.59] y[1.24,1.26] z[1.80,1.95] ndc(0.42, 0.62, 11.4) ['basetexture-firstLayer-wall']
+  wall-2-board-14-scaled           x[-0.61,3.59] y[1.24,1.26] z[1.93,2.07] ndc(0.42, 0.64, 11.4) ['basetexture-firstLayer-wall']
+  wall-2-board-2-scaled            x[-0.61,3.59] y[1.24,1.26] z[0.31,0.46] ndc(0.42, 0.4, 11.4) ['basetexture-firstLayer-wall']
+  wall-2-board-3-scaled            x[-0.61,3.59] y[1.24,1.26] z[0.45,0.60] ndc(0.42, 0.42, 11.4) ['basetexture-firstLayer-wall']
+  wall-2-board-4-scaled            x[-0.61,3.59] y[1.24,1.26] z[0.58,0.73] ndc(0.42, 0.44, 11.4) ['basetexture-firstLayer-wall']
+  wall-2-board-5-scaled            x[-0.61,3.59] y[1.24,1.26] z[0.72,0.87] ndc(0.42, 0.46, 11.4) ['basetexture-firstLayer-wall']
+  wall-2-board-6-scaled            x[-0.61,3.59] y[1.24,1.26] z[0.85,1.00] ndc(0.42, 0.48, 11.4) ['basetexture-firstLayer-wall']
+  wall-2-board-7-scaled            x[-0.61,3.59] y[1.24,1.26] z[0.99,1.14] ndc(0.42, 0.5, 11.4) ['basetexture-firstLayer-wall']
+  wall-2-board-8-scaled            x[-0.61,3.59] y[1.24,1.26] z[1.12,1.27] ndc(0.42, 0.52, 11.4) ['basetexture-firstLayer-wall']
+  wall-2-board-9-scaled            x[-0.61,3.59] y[1.24,1.26] z[1.26,1.41] ndc(0.42, 0.54, 11.4) ['basetexture-firstLayer-wall']
+  wall-3-board-1-scaled            x[3.49,3.51] y[-1.37,1.33] z[0.11,0.26] ndc(0.21, 0.36, 11.0) ['basetexture-firstLayer-wall']
+  wall-3-board-10-scaled           x[3.49,3.51] y[-1.37,1.33] z[1.32,1.47] ndc(0.21, 0.55, 11.0) ['basetexture-firstLayer-wall']
+  wall-3-board-11-scaled           x[3.49,3.51] y[-1.37,1.33] z[1.46,1.61] ndc(0.21, 0.57, 11.0) ['basetexture-firstLayer-wall']
+  wall-3-board-12-scaled           x[3.49,3.51] y[-1.37,1.33] z[1.59,1.74] ndc(0.21, 0.59, 11.0) ['basetexture-firstLayer-wall']
+  wall-3-board-13-scaled           x[3.49,3.51] y[-1.37,1.33] z[1.73,1.88] ndc(0.21, 0.61, 11.0) ['basetexture-firstLayer-wall']
+  wall-3-board-14-scaled           x[3.49,3.51] y[-1.37,1.33] z[1.86,2.01] ndc(0.21, 0.63, 11.0) ['basetexture-firstLayer-wall']
+  wall-3-board-15-scaled           x[3.49,3.51] y[-1.37,1.33] z[2.00,2.07] ndc(0.21, 0.65, 11.0) ['basetexture-firstLayer-wall']
+  wall-3-board-2-scaled            x[3.49,3.51] y[-1.37,1.33] z[0.24,0.39] ndc(0.21, 0.38, 11.0) ['basetexture-firstLayer-wall']
+  wall-3-board-3-scaled            x[3.49,3.51] y[-1.37,1.33] z[0.38,0.53] ndc(0.21, 0.4, 11.0) ['basetexture-firstLayer-wall']
+  wall-3-board-4-scaled            x[3.49,3.51] y[-1.37,1.33] z[0.51,0.66] ndc(0.21, 0.42, 11.0) ['basetexture-firstLayer-wall']
+  wall-3-board-5-scaled            x[3.49,3.51] y[-1.37,1.33] z[0.65,0.80] ndc(0.21, 0.44, 11.0) ['basetexture-firstLayer-wall']
+  wall-3-board-6-scaled            x[3.49,3.51] y[-1.37,1.33] z[0.78,0.93] ndc(0.21, 0.46, 11.0) ['basetexture-firstLayer-wall']
+  wall-3-board-7-scaled            x[3.49,3.51] y[-1.37,1.33] z[0.92,1.07] ndc(0.21, 0.49, 11.0) ['basetexture-firstLayer-wall']
+  wall-3-board-8-scaled            x[3.49,3.51] y[-1.37,1.33] z[1.05,1.20] ndc(0.21, 0.51, 11.0) ['basetexture-firstLayer-wall']
+  wall-3-board-9-scaled            x[3.49,3.51] y[-1.37,1.33] z[1.19,1.34] ndc(0.21, 0.53, 11.0) ['basetexture-firstLayer-wall']
+  wall-7-board-1-scaled            x[-3.58,-0.41] y[-1.29,-1.27] z[0.11,0.26] ndc(0.5, 0.42, 15.6) ['basetexture-firstLayer-canopyWall']
+  wall-7-board-10-scaled           x[-3.58,-0.41] y[-1.29,-1.27] z[1.32,1.47] ndc(0.5, 0.56, 15.6) ['basetexture-firstLayer-canopyWall']
+  wall-7-board-11-scaled           x[-3.58,-0.41] y[-1.29,-1.27] z[1.46,1.61] ndc(0.5, 0.57, 15.6) ['basetexture-firstLayer-canopyWall']
+  wall-7-board-12-scaled           x[-3.58,-0.41] y[-1.29,-1.27] z[1.59,1.74] ndc(0.5, 0.59, 15.6) ['basetexture-firstLayer-canopyWall']
+  wall-7-board-13-scaled           x[-3.58,-0.41] y[-1.29,-1.27] z[1.73,1.88] ndc(0.5, 0.6, 15.6) ['basetexture-firstLayer-canopyWall']
+  wall-7-board-14-scaled           x[-3.58,-0.41] y[-1.29,-1.27] z[1.86,2.01] ndc(0.5, 0.62, 15.6) ['basetexture-firstLayer-canopyWall']
+  wall-7-board-15-scaled           x[-3.58,-0.41] y[-1.29,-1.27] z[2.00,2.07] ndc(0.5, 0.63, 15.6) ['basetexture-firstLayer-canopyWall']
+  wall-7-board-2-scaled            x[-3.58,-0.41] y[-1.29,-1.27] z[0.24,0.39] ndc(0.5, 0.44, 15.6) ['basetexture-firstLayer-canopyWall']
+  wall-7-board-3-scaled            x[-3.58,-0.41] y[-1.29,-1.27] z[0.38,0.53] ndc(0.5, 0.45, 15.6) ['basetexture-firstLayer-canopyWall']
+  wall-7-board-4-scaled            x[-3.58,-0.41] y[-1.29,-1.27] z[0.51,0.66] ndc(0.5, 0.47, 15.6) ['basetexture-firstLayer-canopyWall']
+  wall-7-board-5-scaled            x[-3.58,-0.41] y[-1.29,-1.27] z[0.65,0.80] ndc(0.5, 0.48, 15.6) ['basetexture-firstLayer-canopyWall']
+  wall-7-board-6-scaled            x[-3.58,-0.41] y[-1.29,-1.27] z[0.78,0.93] ndc(0.5, 0.5, 15.6) ['basetexture-firstLayer-canopyWall']
+  wall-7-board-7-scaled            x[-3.58,-0.41] y[-1.29,-1.27] z[0.92,1.07] ndc(0.5, 0.51, 15.6) ['basetexture-firstLayer-canopyWall']
+  wall-7-board-8-scaled            x[-3.58,-0.41] y[-1.29,-1.27] z[1.05,1.20] ndc(0.5, 0.53, 15.6) ['basetexture-firstLayer-canopyWall']
+  wall-7-board-9-scaled            x[-3.58,-0.41] y[-1.29,-1.27] z[1.19,1.34] ndc(0.5, 0.54, 15.6) ['basetexture-firstLayer-canopyWall']
+  wall-8-board-1-scaled            x[-3.51,-3.49] y[-1.37,1.33] z[0.18,0.33] ndc(0.62, 0.43, 15.7) ['basetexture-firstLayer-canopyWall']
+  wall-8-board-10-scaled           x[-3.51,-3.49] y[-1.37,1.33] z[1.39,1.54] ndc(0.62, 0.57, 15.7) ['basetexture-firstLayer-canopyWall']
+  wall-8-board-11-scaled           x[-3.51,-3.49] y[-1.37,1.33] z[1.53,1.68] ndc(0.62, 0.58, 15.7) ['basetexture-firstLayer-canopyWall']
+  wall-8-board-12-scaled           x[-3.51,-3.49] y[-1.37,1.33] z[1.66,1.81] ndc(0.62, 0.6, 15.7) ['basetexture-firstLayer-canopyWall']
+  wall-8-board-13-scaled           x[-3.51,-3.49] y[-1.37,1.33] z[1.80,1.95] ndc(0.62, 0.61, 15.7) ['basetexture-firstLayer-canopyWall']
+  wall-8-board-14-scaled           x[-3.51,-3.49] y[-1.37,1.33] z[1.93,2.07] ndc(0.62, 0.62, 15.7) ['basetexture-firstLayer-canopyWall']
+  wall-8-board-2-scaled            x[-3.51,-3.49] y[-1.37,1.33] z[0.31,0.46] ndc(0.62, 0.45, 15.7) ['basetexture-firstLayer-canopyWall']
+  wall-8-board-3-scaled            x[-3.51,-3.49] y[-1.37,1.33] z[0.45,0.60] ndc(0.62, 0.46, 15.7) ['basetexture-firstLayer-canopyWall']
+  wall-8-board-4-scaled            x[-3.51,-3.49] y[-1.37,1.33] z[0.58,0.73] ndc(0.62, 0.48, 15.7) ['basetexture-firstLayer-canopyWall']
+  wall-8-board-5-scaled            x[-3.51,-3.49] y[-1.37,1.33] z[0.72,0.87] ndc(0.62, 0.49, 15.7) ['basetexture-firstLayer-canopyWall']
+  wall-8-board-6-scaled            x[-3.51,-3.49] y[-1.37,1.33] z[0.85,1.00] ndc(0.62, 0.51, 15.7) ['basetexture-firstLayer-canopyWall']
+  wall-8-board-7-scaled            x[-3.51,-3.49] y[-1.37,1.33] z[0.99,1.14] ndc(0.62, 0.52, 15.7) ['basetexture-firstLayer-canopyWall']
+  wall-8-board-8-scaled            x[-3.51,-3.49] y[-1.37,1.33] z[1.12,1.27] ndc(0.62, 0.54, 15.7) ['basetexture-firstLayer-canopyWall']
+  wall-8-board-9-scaled            x[-3.51,-3.49] y[-1.37,1.33] z[1.26,1.41] ndc(0.62, 0.55, 15.7) ['basetexture-firstLayer-canopyWall']
+  wall-openEnded-8-board-1-scaled  x[-3.58,-3.38] y[1.22,1.24] z[0.11,0.26] ndc(0.68, 0.41, 14.7) ['basetexture-firstLayer-canopyWall']
+  wall-openEnded-8-board-10-scaled x[-3.58,-3.38] y[1.22,1.24] z[1.32,1.47] ndc(0.68, 0.56, 14.7) ['basetexture-firstLayer-canopyWall']
+  wall-openEnded-8-board-11-scaled x[-3.58,-3.38] y[1.22,1.24] z[1.46,1.61] ndc(0.68, 0.57, 14.7) ['basetexture-firstLayer-canopyWall']
+  wall-openEnded-8-board-12-scaled x[-3.58,-3.38] y[1.22,1.24] z[1.59,1.74] ndc(0.68, 0.59, 14.7) ['basetexture-firstLayer-canopyWall']
+  wall-openEnded-8-board-13-scaled x[-3.58,-3.38] y[1.22,1.24] z[1.73,1.88] ndc(0.68, 0.6, 14.7) ['basetexture-firstLayer-canopyWall']
+  wall-openEnded-8-board-14-scaled x[-3.58,-3.38] y[1.22,1.24] z[1.86,2.01] ndc(0.68, 0.62, 14.7) ['basetexture-firstLayer-canopyWall']
+  wall-openEnded-8-board-15-scaled x[-3.58,-3.38] y[1.22,1.24] z[2.00,2.07] ndc(0.68, 0.63, 14.7) ['basetexture-firstLayer-canopyWall']
+  wall-openEnded-8-board-2-scaled  x[-3.58,-3.38] y[1.22,1.24] z[0.24,0.39] ndc(0.68, 0.43, 14.7) ['basetexture-firstLayer-canopyWall']
+  wall-openEnded-8-board-3-scaled  x[-3.58,-3.38] y[1.22,1.24] z[0.38,0.53] ndc(0.68, 0.45, 14.7) ['basetexture-firstLayer-canopyWall']
+  wall-openEnded-8-board-4-scaled  x[-3.58,-3.38] y[1.22,1.24] z[0.51,0.66] ndc(0.68, 0.46, 14.7) ['basetexture-firstLayer-canopyWall']
+  wall-openEnded-8-board-5-scaled  x[-3.58,-3.38] y[1.22,1.24] z[0.65,0.80] ndc(0.68, 0.48, 14.7) ['basetexture-firstLayer-canopyWall']
+  wall-openEnded-8-board-6-scaled  x[-3.58,-3.38] y[1.22,1.24] z[0.78,0.93] ndc(0.68, 0.49, 14.7) ['basetexture-firstLayer-canopyWall']
+  wall-openEnded-8-board-7-scaled  x[-3.58,-3.38] y[1.22,1.24] z[0.92,1.07] ndc(0.68, 0.51, 14.7) ['basetexture-firstLayer-canopyWall']
+  wall-openEnded-8-board-8-scaled  x[-3.58,-3.38] y[1.22,1.24] z[1.05,1.20] ndc(0.68, 0.52, 14.7) ['basetexture-firstLayer-canopyWall']
+  wall-openEnded-8-board-9-scaled  x[-3.58,-3.38] y[1.22,1.24] z[1.19,1.34] ndc(0.68, 0.54, 14.7) ['basetexture-firstLayer-canopyWall']
+  wallcorners                      EMPTY loc(-301.21, 188.84, 3.34)
+  walls                            EMPTY loc(-301.21, 188.84, 3.34)
+=PLANTS / HEDGE (bbox + ndc center; foreground = ndc x,y small & in 0..1)=
+  jacaranda_tree_leaves_a_LOD0   zmin=-0.56 z[-0.56,0.11] x[-0.50,1.17] y[0.00,1.61] ndc(0.47, 0.33, 12.5) inframe=True  <<FG
+  jacaranda_tree_leaves_b_LOD0   zmin=-0.46 z[-0.46,0.13] x[-0.60,0.64] y[0.00,1.42] ndc(0.49, 0.34, 12.8) inframe=True  <<FG
+  jacaranda_tree_leaves_e_LOD0   zmin=-0.20 z[-0.20,0.14] x[-0.17,0.21] y[0.00,0.80] ndc(0.47, 0.36, 13.0) inframe=True  <<FG
+  jacaranda_tree_leaves_c_LOD0   zmin=-0.07 z[-0.07,0.14] x[-0.22,0.16] y[-0.00,0.49] ndc(0.47, 0.37, 13.2) inframe=True  <<FG
+  jacaranda_tree_leaves_d_LOD0   zmin=-0.06 z[-0.06,0.11] x[-0.17,0.26] y[-0.00,0.87] ndc(0.47, 0.37, 13.0) inframe=True  <<FG
+  weed_plant_02_a_LOD0           zmin=-0.01 z[-0.01,0.06] x[-0.09,0.13] y[-0.18,0.11] ndc(0.45, 0.38, 13.4) inframe=True  <<FG
+  weed_plant_02_b_LOD0           zmin=-0.00 z[-0.00,0.07] x[-0.08,0.11] y[-0.09,0.11] ndc(0.45, 0.38, 13.3) inframe=True  <<FG
+  weed_plant_02_c_LOD0           zmin=-0.00 z[-0.00,0.05] x[-0.06,0.08] y[-0.08,0.07] ndc(0.45, 0.38, 13.4) inframe=True  <<FG
+  weed_plant_02_d_LOD0           zmin=-0.00 z[-0.00,0.04] x[-0.08,0.08] y[-0.05,0.06] ndc(0.46, 0.38, 13.3) inframe=True  <<FG
+  weed_plant_02_e_LOD0           zmin=-0.00 z[-0.00,0.04] x[-0.08,0.04] y[-0.03,0.03] ndc(0.46, 0.38, 13.4) inframe=True  <<FG
+  BakGras_0_m10                  zmin=0.45 z[0.45,0.93] x[-3.12,-0.76] y[5.13,7.25] ndc(0.98, 0.42, 10.0) inframe=True
+  BakGras_0_m11                  zmin=0.45 z[0.45,0.93] x[-3.12,-0.76] y[5.13,7.25] ndc(0.98, 0.42, 10.0) inframe=True
+  BakGras_0_m8                   zmin=0.50 z[0.50,0.89] x[-3.09,-0.76] y[5.15,7.24] ndc(0.98, 0.42, 10.0) inframe=True
+  BakGras_0_m9                   zmin=0.45 z[0.45,0.93] x[-3.12,-0.76] y[5.13,7.25] ndc(0.98, 0.42, 10.0) inframe=True
+  BakGras_1_m10                  zmin=0.45 z[0.45,0.93] x[-6.15,-3.73] y[4.80,7.09] ndc(1.06, 0.45, 12.2) inframe=False
+  BakGras_1_m11                  zmin=0.45 z[0.45,0.93] x[-6.15,-3.73] y[4.80,7.09] ndc(1.06, 0.45, 12.2) inframe=False
+  BakGras_1_m8                   zmin=0.50 z[0.50,0.89] x[-6.13,-3.75] y[4.83,7.08] ndc(1.06, 0.45, 12.2) inframe=False
+  BakGras_1_m9                   zmin=0.45 z[0.45,0.93] x[-6.15,-3.73] y[4.80,7.09] ndc(1.06, 0.45, 12.2) inframe=False
+  BakGras_2_m10                  zmin=0.45 z[0.45,0.93] x[-5.62,-3.23] y[4.90,7.09] ndc(1.05, 0.45, 11.8) inframe=False
+  BakGras_2_m11                  zmin=0.45 z[0.45,0.93] x[-5.62,-3.23] y[4.90,7.09] ndc(1.05, 0.45, 11.8) inframe=False
+  BakGras_2_m8                   zmin=0.50 z[0.50,0.89] x[-5.60,-3.24] y[4.93,7.09] ndc(1.05, 0.45, 11.8) inframe=False
+  BakGras_2_m9                   zmin=0.45 z[0.45,0.93] x[-5.62,-3.23] y[4.90,7.09] ndc(1.05, 0.45, 11.8) inframe=False
+  BakGras_3_m0                   zmin=0.50 z[0.50,0.86] x[-5.93,-4.60] y[5.15,6.49] ndc(1.06, 0.45, 12.5) inframe=False
+  BakGras_3_m1                   zmin=0.50 z[0.50,0.86] x[-5.93,-4.59] y[5.14,6.49] ndc(1.06, 0.45, 12.5) inframe=False
+  BakGras_3_m2                   zmin=0.50 z[0.50,0.86] x[-5.93,-4.59] y[5.14,6.49] ndc(1.06, 0.45, 12.5) inframe=False
+  BakGras_3_m3                   zmin=0.50 z[0.50,0.86] x[-5.93,-4.59] y[5.14,6.49] ndc(1.06, 0.45, 12.5) inframe=False
+  BakGras_0_m4                   zmin=0.50 z[0.50,0.95] x[-3.85,-2.14] y[2.22,3.89] ndc(0.77, 0.46, 13.1) inframe=True
+  BakGras_0_m5                   zmin=0.50 z[0.50,0.95] x[-3.85,-2.14] y[2.22,3.89] ndc(0.77, 0.46, 13.1) inframe=True
+  BakGras_0_m6                   zmin=0.50 z[0.50,0.95] x[-3.85,-2.14] y[2.22,3.89] ndc(0.77, 0.46, 13.1) inframe=True
+  BakGras_0_m7                   zmin=0.50 z[0.50,0.95] x[-3.85,-2.14] y[2.22,3.90] ndc(0.77, 0.46, 13.1) inframe=True
+  BakGras_1_m0                   zmin=0.50 z[0.50,0.86] x[-1.78,-0.47] y[-0.05,1.25] ndc(0.54, 0.46, 13.7) inframe=True
+  BakGras_1_m1                   zmin=0.50 z[0.50,0.86] x[-1.78,-0.46] y[-0.06,1.26] ndc(0.54, 0.46, 13.6) inframe=True
+  BakGras_1_m2                   zmin=0.50 z[0.50,0.86] x[-1.78,-0.46] y[-0.06,1.26] ndc(0.54, 0.46, 13.6) inframe=True
+  BakGras_1_m3                   zmin=0.50 z[0.50,0.86] x[-1.78,-0.46] y[-0.06,1.26] ndc(0.54, 0.46, 13.6) inframe=True
+  BakGras_1_m4                   zmin=0.50 z[0.50,0.95] x[-3.75,-1.96] y[2.49,4.26] ndc(0.79, 0.46, 12.7) inframe=True
+  BakGras_1_m5                   zmin=0.50 z[0.50,0.95] x[-3.75,-1.95] y[2.49,4.26] ndc(0.79, 0.46, 12.7) inframe=True
+  BakGras_1_m6                   zmin=0.50 z[0.50,0.95] x[-3.75,-1.95] y[2.49,4.26] ndc(0.79, 0.46, 12.7) inframe=True
+  BakGras_1_m7                   zmin=0.50 z[0.50,0.95] x[-3.75,-1.95] y[2.49,4.26] ndc(0.79, 0.46, 12.7) inframe=True
+  BakGras_2_m4                   zmin=0.50 z[0.50,0.95] x[-3.50,-1.76] y[2.36,4.07] ndc(0.77, 0.46, 12.7) inframe=True
+  BakGras_2_m5                   zmin=0.50 z[0.50,0.95] x[-3.50,-1.75] y[2.36,4.08] ndc(0.77, 0.46, 12.7) inframe=True
+  BakGras_2_m6                   zmin=0.50 z[0.50,0.95] x[-3.50,-1.75] y[2.36,4.08] ndc(0.77, 0.46, 12.7) inframe=True
+  BakGras_2_m7                   zmin=0.50 z[0.50,0.95] x[-3.50,-1.75] y[2.36,4.08] ndc(0.77, 0.46, 12.7) inframe=True
+  BakGras_3_m10                  zmin=0.45 z[0.45,0.93] x[-1.82,0.60] y[-0.01,2.38] ndc(0.55, 0.46, 12.9) inframe=True
+  BakGras_3_m11                  zmin=0.45 z[0.45,0.93] x[-1.82,0.60] y[-0.01,2.38] ndc(0.55, 0.46, 12.9) inframe=True
+  BakGras_3_m4                   zmin=0.50 z[0.50,0.95] x[-4.00,-2.19] y[2.46,4.27] ndc(0.8, 0.46, 12.9) inframe=True
+  BakGras_3_m5                   zmin=0.50 z[0.50,0.95] x[-4.00,-2.19] y[2.46,4.27] ndc(0.8, 0.46, 12.9) inframe=True
+  BakGras_3_m6                   zmin=0.50 z[0.50,0.95] x[-4.00,-2.19] y[2.46,4.27] ndc(0.8, 0.46, 12.9) inframe=True
+  BakGras_3_m7                   zmin=0.50 z[0.50,0.95] x[-4.00,-2.18] y[2.46,4.27] ndc(0.8, 0.46, 12.9) inframe=True
+  BakGras_3_m8                   zmin=0.50 z[0.50,0.89] x[-1.80,0.58] y[-0.01,2.34] ndc(0.55, 0.46, 12.9) inframe=True
+  BakGras_3_m9                   zmin=0.45 z[0.45,0.93] x[-1.82,0.60] y[-0.01,2.38] ndc(0.55, 0.46, 12.9) inframe=True
+  BakGras_2_m0                   zmin=0.50 z[0.50,0.86] x[-1.84,-0.57] y[-0.37,0.90] ndc(0.53, 0.47, 14.0) inframe=True
+  BakGras_2_m1                   zmin=0.50 z[0.50,0.86] x[-1.85,-0.56] y[-0.37,0.91] ndc(0.53, 0.47, 14.0) inframe=True
+  BakGras_2_m2                   zmin=0.50 z[0.50,0.86] x[-1.85,-0.56] y[-0.37,0.91] ndc(0.53, 0.47, 14.0) inframe=True
+  BakGras_2_m3                   zmin=0.50 z[0.50,0.86] x[-1.85,-0.56] y[-0.37,0.91] ndc(0.53, 0.47, 14.0) inframe=True
+  BakGras_0_m0                   zmin=0.50 z[0.50,0.86] x[-5.04,-3.80] y[-0.51,0.73] ndc(0.67, 0.48, 16.2) inframe=True
+  BakGras_0_m1                   zmin=0.50 z[0.50,0.86] x[-5.05,-3.79] y[-0.51,0.74] ndc(0.67, 0.48, 16.2) inframe=True
+  BakGras_0_m2                   zmin=0.50 z[0.50,0.86] x[-5.05,-3.79] y[-0.51,0.74] ndc(0.67, 0.48, 16.2) inframe=True
+  BakGras_0_m3                   zmin=0.50 z[0.50,0.86] x[-5.05,-3.79] y[-0.51,0.74] ndc(0.67, 0.48, 16.2) inframe=True
+  Hedge_Back                     zmin=0.00 z[0.00,1.50] x[-10.00,10.00] y[-6.00,-5.70] ndc(0.25, 0.5, 17.7) inframe=True
+  HedgeSprig                     zmin=-0.15 z[-0.15,0.15] x[24.95,25.05] y[24.94,25.06] ndc(0.62, 0.71, -21.9) inframe=False
+  jacaranda_tree_trunk_LOD0      zmin=-0.15 z[-0.15,10.20] x[-3.49,5.37] y[-2.67,3.82] ndc(0.43, 1.06, 12.3) inframe=False
+  jacaranda_tree_LOD0            zmin=-0.15 z[-0.15,19.32] x[-12.92,11.50] y[-9.20,9.95] ndc(0.51, 1.6, 13.5) inframe=False
+  jacaranda_tree_geometry_nodes  zmin=2.53 z[2.53,19.27] x[-12.89,11.28] y[-9.08,8.95] ndc(0.5, 1.73, 13.9) inframe=False
+INSPECT_END C:/Users/beike/Documents/Blender-blokhutten/pilots/Lelie-400x250-300-zijwand/style-modern/lelie_avondkubus_v2.blend

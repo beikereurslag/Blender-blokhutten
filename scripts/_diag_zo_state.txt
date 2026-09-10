@@ -1,0 +1,135 @@
+DIAG_START Zonnebloem Ochtendhoek
+ACTIVE CAMERA: HeroCam loc(7.8, 9.6, 1.62) lens=35
+RENDER: CYCLES Filmic look= Medium High Contrast res 960 x 540
+
+COLLECTIONS: [('Asset_Gras', 20), ('Asset_Pine', 54), ('RealismSwap', 29)]
+
+=== RealismSwap collection ===
+  51a7fdb251b14619bf3dbf1caef4e5ce.fbx EMPTY   loc(0.0, 0.0, 0.0)
+  51a7fdb251b14619bf3dbf1caef4e5ce.fbx.001 EMPTY   loc(0.0, 0.0, 0.0)
+  90f448c91a4048cfa81b91c594ec5cbe.fbx EMPTY   loc(0.0, 0.0, 0.0)
+  CanecaOBJ.obj.cleaner.gles     EMPTY   loc(-3.93, -0.0, -3.9)
+  Frame                          EMPTY   loc(0.0, 0.0, 0.0)
+  Frame_Frame_Mat_0              MESH    x[-1.83,-1.73] y[3.87,4.04] z[0.99,1.17] v=2476
+  Glass                          EMPTY   loc(0.0, 0.0, 0.0)
+  Glass_Glass_mat_0              MESH    x[-1.83,-1.73] y[3.86,3.97] z[0.99,1.18] v=517
+  Lid                            EMPTY   loc(0.0, 0.0, 0.0)
+  Lid_Lid_mat_0                  MESH    x[-1.84,-1.72] y[3.87,3.98] z[1.15,1.19] v=1270
+  Object_2                       EMPTY   loc(0.0, 0.0, 0.0)
+  Object_3                       MESH    x[-1.66,-1.58] y[3.84,3.96] z[0.99,1.09] v=9136
+  Press                          EMPTY   loc(0.0, 0.0, 0.0)
+  Press_Press_mat_0              MESH    x[-1.82,-1.74] y[3.88,3.97] z[1.02,1.21] v=6786
+  RZ_anchor_firewood_0           EMPTY   loc(-3.02, 0.4, 0.12)
+  RZ_anchor_firewood_1           EMPTY   loc(-3.02, 0.86, 0.12)
+  RZ_anchor_french_press         EMPTY   loc(-1.78, 3.95, 1.1)
+  RZ_anchor_mug                  EMPTY   loc(-1.62, 3.9, 1.04)
+  RootNode.009                   EMPTY   loc(0.0, 0.0, 0.0)
+  RootNode.010                   EMPTY   loc(0.0, 0.0, 0.0)
+  RootNode.011                   EMPTY   loc(0.0, 0.0, 0.0)
+  Sketchfab_model.002            EMPTY   loc(0.0, 0.0, 0.0)
+  Sketchfab_model.003            EMPTY   loc(0.0, 0.0, 0.0)
+  Sketchfab_model.004            EMPTY   loc(0.0, 0.0, 0.0)
+  Sketchfab_model.005            EMPTY   loc(0.0, 0.0, 0.0)
+  StackedFirewood                EMPTY   loc(0.0, 0.0, 0.0)
+  StackedFirewood.001            EMPTY   loc(0.0, 0.0, 0.0)
+  StackedFirewood_Firewood_0     MESH    x[-3.22,-2.82] y[0.17,0.63] z[0.00,0.24] v=4317
+  StackedFirewood_Firewood_0.001 MESH    x[-3.25,-2.79] y[0.61,1.11] z[0.00,0.24] v=4317
+
+=== Hardscape + key props (deck/pad/terras/lavendel/tafel) + materiaal ===
+  Ground_Grass                   x[-15.00,15.00] y[-15.00,15.00] z[0.00,0.00] v=4
+        mat: M_PBR_GrassRock: imgs=['diff_2k.jpg', 'rough_2k.jpg', 'nor_gl_2k.jpg']
+  Pad                            x[1.39,5.80] y[2.92,9.66] z[0.10,0.10] v=74
+        mat: MAT_Grind: imgs=['T_vl0mfbllw_8K_B.png', 'T_vl0mfbllw_8K_N.png'] baseRGBA=(0.4, 0.4, 0.39, 1.0)
+  Vlonder                        x[-3.20,0.60] y[1.72,4.50] z[0.00,0.06] v=8
+        mat: MAT_Ash: imgs=['douglas.jpg']
+  bistrot_table_low_foot_0       x[-1.89,-1.51] y[3.71,4.09] z[0.07,0.75] v=20116
+        mat: foot: imgs=['foot_baseColor.png', 'foot_metallicRoughness.png', 'foot_normal.png']
+
+=== ALL top-level (parentless) mesh objects ===
+  count: 85
+    Deur_Stoep
+    Ground_Grass
+    HedgeSprig
+    Hedge_Back
+    Hedge_East
+    Hedge_West
+    Pad
+    Vlonder
+    parentBoard-4-scaled
+    parentBoard-5-scaled
+    parentBoard-6-scaled
+    pine_tree_01_a_LOD0
+    pine_tree_01_a_LOD1
+    pine_tree_01_a_LOD2
+    pine_tree_01_b_LOD0
+    pine_tree_01_b_LOD1
+    pine_tree_01_b_LOD2
+    pine_tree_01_branch_a
+    pine_tree_01_branch_b
+    pine_tree_01_branch_c
+    pine_tree_01_branch_d
+    pine_tree_01_branch_e
+    pine_tree_01_branch_f
+    pine_tree_01_branch_g
+    pine_tree_01_c_LOD0
+    pine_tree_01_c_LOD1
+    pine_tree_01_c_LOD2
+    pine_tree_01_dead_branch_a
+    pine_tree_01_dead_branch_b
+    pine_tree_01_dead_branch_c
+    pine_tree_01_dead_branch_d
+    pine_tree_01_dead_branch_e
+    pine_tree_01_dead_branch_f
+    pine_tree_01_dead_branch_g
+    pine_tree_01_dead_branch_h
+    pine_tree_01_dead_branch_i
+    pine_tree_01_dead_branch_j
+    pine_tree_01_needle_a
+    pine_tree_01_needle_b
+    pine_tree_01_needle_c
+    pine_tree_01_needle_d
+    pine_tree_01_needle_e
+    pine_tree_01_needle_f
+    pine_tree_01_needle_g
+    pine_tree_01_needle_h
+    pine_tree_01_needle_i
+    pine_tree_01_needle_j
+    pine_tree_01_needle_k
+    pine_tree_01_trunk_a
+    pine_tree_01_trunk_b
+    pine_tree_01_trunk_c
+    pine_tree_01_twig_a_LOD1
+    pine_tree_01_twig_a_LOD2
+    pine_tree_01_twig_b_LOD1
+    pine_tree_01_twig_b_LOD2
+    pine_tree_01_twig_c_LOD1
+    pine_tree_01_twig_c_LOD2
+    pine_tree_01_twig_d_LOD1
+    pine_tree_01_twig_d_LOD2
+    pine_tree_01_twig_e_LOD1
+    pine_tree_01_twig_e_LOD2
+    pine_tree_01_twig_f_LOD1
+    pine_tree_01_twig_f_LOD2
+    pine_tree_01_twig_g_LOD1
+    pine_tree_01_twig_g_LOD2
+    weed_plant_02_a_LOD0
+    weed_plant_02_a_LOD1
+    weed_plant_02_a_LOD2
+    weed_plant_02_a_LOD3
+    weed_plant_02_b_LOD0
+    weed_plant_02_b_LOD1
+    weed_plant_02_b_LOD2
+    weed_plant_02_b_LOD3
+    weed_plant_02_c_LOD0
+    weed_plant_02_c_LOD1
+    weed_plant_02_c_LOD2
+    weed_plant_02_c_LOD3
+    weed_plant_02_d_LOD0
+    weed_plant_02_d_LOD1
+    weed_plant_02_d_LOD2
+    weed_plant_02_d_LOD3
+    weed_plant_02_e_LOD0
+    weed_plant_02_e_LOD1
+    weed_plant_02_e_LOD2
+    weed_plant_02_e_LOD3
+DIAG_END
