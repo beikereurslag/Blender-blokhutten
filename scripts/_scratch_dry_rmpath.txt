@@ -1,0 +1,26 @@
+===== camelia_buitenbad =====
+[rmpath] dry: 1 pad/blob-objecten -> ['Stoep_voeg']
+===== camelia_wijnterras =====
+[rmpath] dry: 0 pad/blob-objecten -> []
+===== dahlia_tuinkantoor =====
+[rmpath] dry: 6 pad/blob-objecten -> ['DtPaver_1', 'DtPaver_2', 'DtPaver_3', 'DtPaver_4', 'DtPaver_5', 'DtPaver_6']
+===== dahlia_leeshoek =====
+[rmpath] dry: 0 pad/blob-objecten -> []
+===== jasmijn_familietuin =====
+[rmpath] dry: 1 pad/blob-objecten -> ['JfPaverPath']
+===== jasmijn_theehuis =====
+[rmpath] dry: 11 pad/blob-objecten -> ['ThPath_0', 'ThPath_1', 'ThPath_2', 'ThPath_3', 'ThPath_4', 'ThPath_5', 'ThPath_6', 'ThPath_7', 'ThPath_8', 'ThPath_9', 'ThPath_bed']
+===== lavendel_pluktuin =====
+[rmpath] dry: 0 pad/blob-objecten -> []
+===== lavendel_lavendelveld =====
+[rmpath] dry: 0 pad/blob-objecten -> []
+===== magnolia_wintertuin =====
+[rmpath] dry: 7 pad/blob-objecten -> ['MwPath_0', 'MwPath_1', 'MwPath_2', 'MwPath_3', 'MwPath_4', 'MwPath_5', 'MwPath_6']
+===== roosmarijn_zentuin =====
+[rmpath] dry: 17 pad/blob-objecten -> ['Karesansui', 'MosEiland_0', 'MosEiland_1', 'ZnPath_0', 'ZnPath_1', 'ZnPath_10', 'ZnPath_11', 'ZnPath_12', 'ZnPath_2', 'ZnPath_3', 'ZnPath_4', 'ZnPath_5', 'ZnPath_6', 'ZnPath_7', 'ZnPath_8', 'ZnPath_9', 'ZnPath_bed']
+===== roosmarijn_kruidenterras =====
+[rmpath] dry: 15 pad/blob-objecten -> ['KtPath_0', 'KtPath_1', 'KtPath_10', 'KtPath_11', 'KtPath_12', 'KtPath_13', 'KtPath_2', 'KtPath_3', 'KtPath_4', 'KtPath_5', 'KtPath_6', 'KtPath_7', 'KtPath_8', 'KtPath_9', 'KtPath_bed']
+===== zonnebloem_zomeravond =====
+[rmpath] dry: 25 pad/blob-objecten -> ['ZmPath_0', 'ZmPath_1', 'ZmPath_10', 'ZmPath_11', 'ZmPath_12', 'ZmPath_13', 'ZmPath_14', 'ZmPath_15', 'ZmPath_16', 'ZmPath_17', 'ZmPath_18', 'ZmPath_19', 'ZmPath_2', 'ZmPath_20', 'ZmPath_21', 'ZmPath_22', 'ZmPath_23', 'ZmPath_3', 'ZmPath_4', 'ZmPath_5', 'ZmPath_6', 'ZmPath_7', 'ZmPath_8', 'ZmPath_9', 'ZmPath_bed']
+===== zonnebloem_ochtendhoek =====
+[rmpath] dry: 15 pad/blob-objecten -> ['ZoPath_0', 'ZoPath_1', 'ZoPath_10', 'ZoPath_11', 'ZoPath_12', 'ZoPath_13', 'ZoPath_14', 'ZoPath_2', 'ZoPath_3', 'ZoPath_4', 'ZoPath_5', 'ZoPath_6', 'ZoPath_7', 'ZoPath_8', 'ZoPath_9']

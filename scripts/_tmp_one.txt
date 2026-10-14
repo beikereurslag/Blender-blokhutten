@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\beike\Documents\Blender-blokhutten\remove_paths_blobs.py", line 9, in <module>
+    bpy.ops.wm.open_mainfile(filepath=SRC)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+RuntimeError: Error: Cannot read file "C:\Users\beike\Documents\Blender-blokhutten\Zonnebloem-300x300-300-zijwand\style-scandi\zonnebloem_ochtendhoek_v3.blend": No such file or directory
+
+Error: Cannot read file "C:\Users\beike\Documents\Blender-blokhutten\Zonnebloem-300x300-300-zijwand\style-scandi\zonnebloem_ochtendhoek_v3.blend": No such file or directory
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

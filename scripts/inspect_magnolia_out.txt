@@ -1,0 +1,41 @@
+=== PROP TREES (children, world bb) ===
+-- Bank loc (-1.2, 2.5, 0.05) rot_deg (0.0, 0.0, 8.0)
+    Bank_m0                    x[-1.74,-0.64] y[2.21,2.80] z[0.05,0.85]
+-- Lantaarn_root loc (1.4, 2.6, 0.06) rot_deg (0.0, 0.0, 17.2)
+    wooden_lantern_01          x[1.30,1.50] y[2.50,2.70] z[0.05,0.36]
+    wooden_lantern_01_door     x[1.36,1.48] y[2.49,2.56] z[0.07,0.31]
+    wooden_lantern_01_handle   x[1.34,1.47] y[2.58,2.63] z[0.32,0.45]
+-- Vacht loc (0.0, 0.0, 0.0) rot_deg (0.0, 0.0, 0.0)
+
+=== Footprint loc ===
+Terras loc (0.0, 0.0, 0.0)
+Stap_0 loc (2.21, 6.2, 0.03)
+Stap_1 loc (1.64, 5.2, 0.03)
+Stap_2 loc (1.0, 4.3, 0.03)
+Stap_3 loc (0.38, 3.5, 0.03)
+Stap_4 loc (-0.02, 2.8, 0.03)
+shed loc (0.6, -2.82, 0.05)
+
+=== round disc / well / stone objects ===
+flatroof-14-roofplate      MESH    bb x[-1.70,1.70] y[-1.17,1.18] z[2.05,2.19] hr=False
+Ground_Grass               MESH    bb x[-12.00,12.00] y[-12.00,12.00] z[0.00,0.00] hr=False
+
+=== ALL root mesh/empty NOT struct/tree/hedge (props) with bb ===
+Bank                       EMPTY   x[-1.74,-0.64] y[2.21,2.80] z[0.05,0.85] hr=False
+Hout_0_0                   MESH    x[1.34,1.76] y[1.35,1.45] z[0.02,0.12] hr=False
+Hout_0_1                   MESH    x[1.34,1.76] y[1.46,1.56] z[0.02,0.12] hr=False
+Hout_0_2                   MESH    x[1.34,1.76] y[1.57,1.67] z[0.02,0.12] hr=False
+Hout_0_3                   MESH    x[1.34,1.76] y[1.68,1.78] z[0.02,0.12] hr=False
+Hout_1_0                   MESH    x[1.34,1.76] y[1.41,1.50] z[0.14,0.24] hr=False
+Hout_1_1                   MESH    x[1.34,1.76] y[1.52,1.62] z[0.14,0.24] hr=False
+Hout_1_2                   MESH    x[1.34,1.76] y[1.62,1.72] z[0.14,0.24] hr=False
+Lantaarn_root              EMPTY   x[1.30,1.50] y[2.49,2.70] z[0.05,0.45] hr=False
+Stap_0                     MESH    x[1.82,2.60] y[5.81,6.59] z[0.00,0.05] hr=False
+Stap_1                     MESH    x[1.30,1.98] y[4.86,5.54] z[0.00,0.05] hr=False
+Stap_2                     MESH    x[0.62,1.38] y[3.92,4.68] z[0.00,0.05] hr=False
+Stap_3                     MESH    x[-0.02,0.77] y[3.11,3.89] z[0.00,0.05] hr=False
+Stap_4                     MESH    x[-0.41,0.37] y[2.41,3.19] z[0.00,0.05] hr=False
+Terras                     MESH    x[-1.70,1.70] y[1.25,3.00] z[0.00,0.05] hr=False
+Vacht                      MESH    x[-1.45,-0.95] y[2.30,2.70] z[0.42,0.49] hr=False
+painted_wooden_bench       MESH    x[-0.58,0.59] y[-0.24,0.25] z[-0.00,0.89] hr=True
+=== END ===
