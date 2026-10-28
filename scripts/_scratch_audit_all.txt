@@ -1,0 +1,48 @@
+===== camelia_buitenbad =====
+  PADEN (plat materiaal):
+    mat=MAT_Voegzand base=(0.16, 0.14, 0.11) obj=PadKlinker_voeg
+  GROENE BLOBS (plat groen, vlak):
+    mat=blackscreen base=(0.24, 0.24, 0.24) bv.obj=Object_2 zext=0.01
+    mat=grey-rubber base=(0.3, 0.3, 0.3) bv.obj=Object_10 zext=0.03
+    mat=metal base=(0.51, 0.51, 0.51) bv.obj=Object_11 zext=0.22
+
+===== camelia_wijnterras =====
+  PADEN (plat materiaal):
+    (geen)
+  GROENE BLOBS (plat groen, vlak):
+    (geen)
+
+===== dahlia_tuinkantoor =====
+  PADEN (plat materiaal):
+    mat=MAT_DtPaverFB base=(0.8, 0.8, 0.8) obj=DtPaver_1
+    mat=MAT_DtPaverFB base=(0.8, 0.8, 0.8) obj=DtPaver_2
+    mat=MAT_DtPaverFB base=(0.8, 0.8, 0.8) obj=DtPaver_3
+    mat=MAT_DtPaverFB base=(0.8, 0.8, 0.8) obj=DtPaver_4
+    mat=MAT_DtPaverFB base=(0.8, 0.8, 0.8) obj=DtPaver_5
+    mat=MAT_DtPaverFB base=(0.8, 0.8, 0.8) obj=DtPaver_6
+  GROENE BLOBS (plat groen, vlak):
+    mat=MAT_DtPaverFB base=(0.8, 0.8, 0.8) bv.obj=DtPaver_1 zext=0.08
+
+===== dahlia_leeshoek =====
+  PADEN (plat materiaal):
+    (geen)
+  GROENE BLOBS (plat groen, vlak):
+    mat=MAT_TerrasSteen base=(0.16, 0.16, 0.14) bv.obj=DlTerras_0_0 zext=0.06
+
+===== jasmijn_theehuis =====
+  PADEN (plat materiaal):
+    mat=MAT_PadBed base=(0.05, 0.04, 0.03) obj=ThPath_bed
+    mat=MAT_ThFlag base=(0.8, 0.8, 0.8) obj=ThPath_0
+    mat=MAT_ThFlag base=(0.8, 0.8, 0.8) obj=ThPath_1
+    mat=MAT_ThFlag base=(0.8, 0.8, 0.8) obj=ThPath_2
+    mat=MAT_ThFlag base=(0.8, 0.8, 0.8) obj=ThPath_3
+    mat=MAT_ThFlag base=(0.8, 0.8, 0.8) obj=ThPath_4
+    mat=MAT_ThFlag base=(0.8, 0.8, 0.8) obj=ThPath_5
+    mat=MAT_ThFlag base=(0.8, 0.8, 0.8) obj=ThPath_6
+    mat=MAT_ThFlag base=(0.8, 0.8, 0.8) obj=ThPath_7
+    mat=MAT_ThFlag base=(0.8, 0.8, 0.8) obj=ThPath_8
+    mat=MAT_ThFlag base=(0.8, 0.8, 0.8) obj=ThPath_9
+  GROENE BLOBS (plat groen, vlak):
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit
